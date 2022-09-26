@@ -1,0 +1,54 @@
+! === UNSPLASH ===
+! removes banners and ads
+unsplash.com##div:nth-of-type(3) > div.M5vdR.U8eXG.bYpwS.rJ2xz:nth-of-type(1)
+unsplash.com##.eziW_.DjoTo
+unsplash.com##.fvlUC
+
+! === TWITTER ===
+! removes everything for trends and algorithms
+twitter.com##a.r-13qz1uu.r-oyd9sg.r-1ny4l3l.r-16y2uox.r-eqz5dr.r-6koalj.r-1loqt21.r-1habvwh.css-1dbjc4n.css-18t94o4.css-4rbku5:nth-of-type(2)
+twitter.com##.r-1udh08x.r-1bro5k0.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-14wv3jr.r-g2wdr4.css-1dbjc4n
+twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-14wv3jr.r-g2wdr4.css-1dbjc4n
+twitter.com##.r-1wyyakw.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-1dbjc4n > .r-1awozwy.css-1dbjc4n
+
+! === REDDIT ===
+! removing crypto buttons, banners and other useless bloat
+www.reddit.com##.YfUlQeQY0xbmCv-So3isP
+www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._2QeqBqfT5UbHBoViZUt-wX._1G4yU68P50vRZ4USXfaceV
+www.reddit.com##._3RPJ8hHnfFohktLZca18J6
+www.reddit.com##._1dBtowHdRHcGyLbVEaOL8t._2I12Htze2UzJmmfnrgYJOn._2zZ-KGHbWWqrwGlHWXR90y
+www.reddit.com##._23q1waDr4n_2fR5A7zcZzb.x0hiXHicn7r3BG9m1FJH4
+www.reddit.com##._21z552gDZGIvH3ewNzPXWw
+
+! === YOUTUBE ===
+! removes buttons and fields for premium functionality
+www.youtube.com##ytd-download-button-renderer.ytd-menu-renderer.style-scope
+
+! === UNSORTED MINOR CHANGES ===
+
+! 2022-01-05 https://www.filmsupply.com
+www.filmsupply.com##.ezb2bg21.css-8zlyi3
+
+! 2022-02-22 https://www.ruhr24.de
+www.ruhr24.de##.cmpstyleroot.cmpboxBG
+www.ruhr24.de###cmpbox
+
+! 2022-03-14 https://faq.whatsapp.com
+faq.whatsapp.com##._a0g9._9r_7._a0gc._9yxc
+
+! 2022-03-28 https://code2care.org
+code2care.org##.mssg
+
+! 2022-04-13 https://kabel.vodafone.de
+kabel.vodafone.de##.stickyNote > .ng-scope
+
+! 2022-05-10 https://www.duolingo.com
+www.duolingo.com##._3bfsh._1UOwI
+www.duolingo.com##.wm1bO.SQR8J
+
+! 2022-06-03 https://guysnightlife.com
+guysnightlife.com##.sticky.collapsed.s1.sidebar
+
+! 2022-06-29 https://flowchart.fun
+flowchart.fun##.gap.px.py.content.slang-box.Navigation_Navigation__1N4j- > .gap.items.slang-box
+
