@@ -34,6 +34,14 @@ www.reddit.com##span._2zZ-KGHbWWqrwGlHWXR90y:nth-of-type(6)
 !╚═════════════════════════════════╝
 www.youtube.com##ytd-download-button-renderer.ytd-menu-renderer.style-scope
 www.youtube.com###panels
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+
+!╔══════════ STRATO ══════════╗
+!║      removes upselling     ║
+!╚════════════════════════════╝
+www.strato.de##.ad-server
+www.strato.de##.bkm-zone
+www.strato.de##.new_panel
 
 !╔══════ UNCATEGORIZED ══════╗
 !║    many small changes     ║
@@ -72,11 +80,12 @@ guysnightlife.com##.sticky.collapsed.s1.sidebar
 ! 2022-06-29 https://flowchart.fun
 flowchart.fun##.gap.px.py.content.slang-box.Navigation_Navigation__1N4j- > .gap.items.slang-box
 
+! 2022-10-03 https://superuser.com
+! remove cookie banner
+superuser.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2022-10-12 https://vimeo.com
+vimeo.com###global-notifications-legacy-root
+
 ! 2022-09-29 https://filecr.com
 filecr.com##.fixed.alert
-
-! 2022-10-01 https://www.strato.de
-! removes lots of upselling fields
-www.strato.de##.ad-server
-www.strato.de##.bkm-zone
-www.strato.de##.new_panel
