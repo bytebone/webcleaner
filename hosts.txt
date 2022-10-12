@@ -55,6 +55,12 @@ superuser.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 unix.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 
+!╔═════════ COOKIE BANNERS ═════════╗
+!║    removes forced / fullscreen   ║
+!║          cookie banners          ║
+!╚══════════════════════════════════╝
+www.computerbase.de##.consent:remove()
+
 !╔══════ UNCATEGORIZED ══════╗
 !║    many small changes     ║
 !║     for random pages      ║
@@ -97,6 +103,3 @@ vimeo.com###global-notifications-legacy-root
 
 ! 2022-09-29 https://filecr.com
 filecr.com##.fixed.alert
-
-! remove forced cookie banner
-www.computerbase.de##.consent:remove()
