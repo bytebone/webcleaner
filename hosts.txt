@@ -23,6 +23,7 @@ twitter.com##.r-1wyyakw.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.c
 !║   removing crypto buttons, banners   ║
 !║      and other useless bloat         ║
 !╚══════════════════════════════════════╝
+www.reddit.com##.promotedlink
 www.reddit.com##.YfUlQeQY0xbmCv-So3isP
 www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._2QeqBqfT5UbHBoViZUt-wX._1G4yU68P50vRZ4USXfaceV
 www.reddit.com##._3RPJ8hHnfFohktLZca18J6
