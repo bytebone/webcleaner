@@ -2,7 +2,8 @@
 ! Expires: 1 days (update frequency)
 ! 
 ! This blocklist aims to remove often unwandted interface elements from popular websites. This includes stuff like upselling, 
-! premium memberships, annoying banners and other annoyances.
+! premium memberships, annoying banners and other annoyances. This list is opinionated in some places and may remove functionality
+! you like and use.
 !
 !╔══════════ UNSPLASH ══════════╗
 !║   removes banners and ads    ║
@@ -11,13 +12,15 @@ unsplash.com##div:nth-of-type(3) > div.M5vdR.U8eXG.bYpwS.rJ2xz:nth-of-type(1)
 unsplash.com##.eziW_.DjoTo
 unsplash.com##.fvlUC
 
-!╔═════════════ TWITTER ═════════════╗
-!║   removes trends and algorithms   ║
-!╚═══════════════════════════════════╝
+!╔══════════════════ TWITTER ═══════════════════╗
+!║   removes trends, algos and blue upselling   ║
+!╚══════════════════════════════════════════════╝
 twitter.com##a.r-13qz1uu.r-oyd9sg.r-1ny4l3l.r-16y2uox.r-eqz5dr.r-6koalj.r-1loqt21.r-1habvwh.css-1dbjc4n.css-18t94o4.css-4rbku5:nth-of-type(2)
 twitter.com##.r-1udh08x.r-1bro5k0.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-14wv3jr.r-g2wdr4.css-1dbjc4n
 twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-14wv3jr.r-g2wdr4.css-1dbjc4n
 twitter.com##.r-1wyyakw.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-1dbjc4n > .r-1awozwy.css-1dbjc4n
+twitter.com##a:nth-of-type(7)
+twitter.com##a:nth-of-type(8)
 
 !╔══════════════ REDDIT ════════════════╗
 !║   removing crypto buttons, banners   ║
@@ -61,6 +64,9 @@ unix.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-
 !║          cookie banners          ║
 !╚══════════════════════════════════╝
 www.computerbase.de##.consent:remove()
+www.wired.com##.paywall-bar__expanded
+www.wired.com###failsafe-clickthrough
+www.wired.com##.VideoFigure-hYQGPl.iqZugu
 
 !╔══════ UNCATEGORIZED ══════╗
 !║    many small changes     ║
@@ -104,3 +110,8 @@ vimeo.com###global-notifications-legacy-root
 
 ! 2022-09-29 https://filecr.com
 filecr.com##.fixed.alert
+
+svelte.dev##.ukr.svelte-1vzj3k2
+preactjs.com##.banner__i-W49
+preactjs.com##.corner__2VfwX
+chat.openai.com##a.flex.py-3.px-3.items-center.gap-3.rounded-md.hover\:bg-gray-500\/10.transition-colors.duration-200.text-white.cursor-pointer.text-sm:nth-of-type(3)
