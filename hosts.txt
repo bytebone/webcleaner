@@ -26,14 +26,14 @@ twitter.com##a:nth-of-type(8)
 !║   removing crypto buttons, banners   ║
 !║      and other useless bloat         ║
 !╚══════════════════════════════════════╝
-www.reddit.com##.promotedlink
-www.reddit.com##.YfUlQeQY0xbmCv-So3isP
-www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > ._2QeqBqfT5UbHBoViZUt-wX._1G4yU68P50vRZ4USXfaceV
-www.reddit.com##._3RPJ8hHnfFohktLZca18J6
-www.reddit.com##._1dBtowHdRHcGyLbVEaOL8t._2I12Htze2UzJmmfnrgYJOn._2zZ-KGHbWWqrwGlHWXR90y
-www.reddit.com##._23q1waDr4n_2fR5A7zcZzb.x0hiXHicn7r3BG9m1FJH4
-www.reddit.com##._21z552gDZGIvH3ewNzPXWw
-www.reddit.com##span._2zZ-KGHbWWqrwGlHWXR90y:nth-of-type(6)
+www.reddit.com##a._3fbofimxVp_hpVM6I1TGMS:nth-of-type(-n+3)
+www.reddit.com##div#change-username-tooltip-id > span:nth-last-of-type(-n+2)
+www.reddit.com##div.uI_hDmU5GSiudtABRz_37 > div:nth-child(2)
+www.reddit.com##div[data-testid="frontpage-sidebar"] > div:first-child
+www.reddit.com##div.rpBJOHq2PR60pnwJlUyP0 > div:has(a[rel*="sponsored"], div._3mV_F85IUlHJXj6vglN9dL)
+www.reddit.com###focus-Premium
+www.reddit.com###focus-Avatar
+! www.reddit.com##a[href$="/premium"] # might break stuff since not very specific
 
 !╔════════════ YOUTUBE ════════════╗
 !║   removes buttons and fields    ║
