@@ -1,16 +1,24 @@
 ! Title: Rainer's Webcleaner
 ! Expires: 1 days (update frequency)
-! 
+!
 ! This blocklist aims to remove often unwandted interface elements from popular websites. This includes stuff like upselling, 
 ! premium memberships, annoying banners and other annoyances. This list is opinionated in some places and may remove functionality
 ! you like and use.
-!
+
 !╔══════════ UNSPLASH ══════════╗
 !║   removes banners and ads    ║
 !╚══════════════════════════════╝
-unsplash.com##div:nth-of-type(3) > div.M5vdR.U8eXG.bYpwS.rJ2xz:nth-of-type(1)
-unsplash.com##.eziW_.DjoTo
+! post-download banner
 unsplash.com##.fvlUC
+! sponsored & unsplash+ posts
+unsplash.com##div.ripi6 > div
+unsplash.com##div.ripi6 > figure:has(a[href^="/plus"])
+! debloat navbar
+unsplash.com##div.nOssi
+! removes iStock ads
+unsplash.com##div.CtKee.U8eXG > :nth-child(-n+2)
+unsplash.com##div.NTfdD:has(a[href*="istockphoto"])
+unsplash.com##div.rx4AP > :last-child
 
 !╔══════════════════ TWITTER ═══════════════════╗
 !║   removes trends, algos and blue upselling   ║
