@@ -76,6 +76,13 @@ www.wired.com##.paywall-bar__expanded
 www.wired.com###failsafe-clickthrough
 www.wired.com##.VideoFigure-hYQGPl.iqZugu
 
+!╔══════ AD SERVERS ══════╗
+!║    actual ad servers   ║
+!║    not site specific   ║
+!╚════════════════════════╝
+||m.media-amazon.com/images/*.js
+||raw.githubusercontent.com/wmcmurray/just-detect-adblock/*
+
 !╔══════ UNCATEGORIZED ══════╗
 !║    many small changes     ║
 !║     for random pages      ║
