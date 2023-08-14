@@ -52,6 +52,13 @@ www.youtube.com###panels
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com##.iron-selected.ytd-menu-popup-renderer.style-scope
 
+!╔════════ TRAKT ════════╗
+!║       ad removal      ║
+!╚═══════════════════════╝
+||trakt.tv/assets/b6a0a7/**/*.*^
+trakt.tv##div:has(div.snigel)
+trakt.tv##div#f1a979-e54078-wrapper
+
 !╔══════════ STRATO ══════════╗
 !║      removes upselling     ║
 !╚════════════════════════════╝
