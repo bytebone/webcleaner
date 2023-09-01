@@ -51,6 +51,7 @@ www.youtube.com##ytd-download-button-renderer.ytd-menu-renderer.style-scope
 www.youtube.com###panels
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com##.iron-selected.ytd-menu-popup-renderer.style-scope
+www.youtube.com##ytd-ad-slot-renderer
 
 !╔════════ TRAKT ════════╗
 !║       ad removal      ║
