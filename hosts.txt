@@ -5,6 +5,20 @@
 ! premium memberships, annoying banners and other annoyances. This list is opinionated in some places and may remove functionality
 ! you like and use.
 
+!╔══════════ LINKEDIN ══════════╗
+!║   removes adslots all over   ║
+!╚══════════════════════════════╝
+! sidebar ads
+linkedin.com##aside > div:has(section.ad-banner-container)
+linkedin.com##aside > div.artdeco-card:has(div[class*="card-upsell"])
+linkedin.com##aside > section.ad-banner-container
+linkedin.com##div.scaffold-layout__sidebar section.ad-banner-container
+! premium upsell
+linkedin.com##div.scaffold-layout__sidebar a[class*="premium-upsell"]
+linkedin.com##nav li:has(div.premium-upsell-link)
+linkedin.com##div.mn-sales-navigator-upsell
+linkedin.com##div.scaffold-finite-scroll__content > div:has(section.premium-accent-bar)
+
 !╔══════════ UNSPLASH ══════════╗
 !║   removes banners and ads    ║
 !╚══════════════════════════════╝
