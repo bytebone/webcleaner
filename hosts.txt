@@ -152,3 +152,6 @@ svelte.dev##.ukr.svelte-1vzj3k2
 preactjs.com##.banner__i-W49
 preactjs.com##.corner__2VfwX
 chat.openai.com##a.flex.py-3.px-3.items-center.gap-3.rounded-md.hover\:bg-gray-500\/10.transition-colors.duration-200.text-white.cursor-pointer.text-sm:nth-of-type(3)
+
+! 2023-10-31 tld-list.com
+tld-list.com##div.text-center:has([rel*=sponsored])
