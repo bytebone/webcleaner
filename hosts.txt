@@ -158,3 +158,6 @@ tld-list.com##div.text-center:has([rel*=sponsored])
 
 ! 2023-11-04 aliexpress.com
 aliexpress.com##div#card-list > div.list--gallery--C2f2tvm:has(span[class*="multi--ad"])
+
+! 2023-11-09 dropbox.com
+dropbox.com##div[class*="redesign-header"] > div:has(div[role="alert"])
