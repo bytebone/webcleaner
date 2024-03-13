@@ -73,7 +73,10 @@ www.youtube.com##ytd-ad-slot-renderer
 !╚═══════════════════════╝
 ||trakt.tv/assets/b6a0a7/**/*.*^
 trakt.tv##div:has(div.snigel)
-trakt.tv##div#f1a979-e54078-wrapper
+trakt.tv##div.top, div.middle, div.bottom
+trakt.tv##div.row.fanarts > div.frame-grid, div.grid-item:has([href*="/vip"])
+trakt.tv##section[id*="content-page"]:has([href^="/vip"])
+trakt.tv##div:is(.info, #credits, #overview) > :has([href*="/vip"])
 
 !╔══════════ STRATO ══════════╗
 !║      removes upselling     ║
