@@ -73,9 +73,9 @@ www.youtube.com##ytd-ad-slot-renderer
 !╚═══════════════════════╝
 ||trakt.tv/assets/b6a0a7/**/*.*^
 trakt.tv##div:has(div.snigel)
-trakt.tv##div.top, div.middle, div.bottom
 trakt.tv##div.row.fanarts > div.frame-grid, div.grid-item:has([href*="/vip"])
 trakt.tv##section[id*="content-page"]:has([href^="/vip"])
+! trakt.tv##div.top, div.middle, div.bottom (breaks interactivity)
 ! trakt.tv##div:is(#credits, #overview) > :has([href*="/vip"])
 
 !╔══════════ STRATO ══════════╗
