@@ -165,3 +165,6 @@ aliexpress.com##div#card-list > div.list--gallery--C2f2tvm:has(span[class*="mult
 
 ! 2023-11-09 dropbox.com
 dropbox.com##div[class*="redesign-header"] > div:has(div[role="alert"])
+
+! 2024-10-14 duckduckgo.com
+duckduckgo.com##ol.react-results--main>li[data-layout="ad"]
