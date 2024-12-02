@@ -1,4 +1,4 @@
-! Title: Rainer's Webcleaner
+! Title: astros's Webcleaner
 ! Expires: 1 days (update frequency)
 !
 ! This blocklist aims to remove often unwandted interface elements from popular websites. This includes stuff like upselling, 
