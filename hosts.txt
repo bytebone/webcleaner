@@ -23,7 +23,7 @@ linkedin.com##div.scaffold-finite-scroll__content > div:has(section.premium-acce
 !║   removes banners and ads    ║
 !╚══════════════════════════════╝
 ! post-download banner
-unsplash.com##.fvlUC
+unsplash.com##div.SM8L3
 ! istock ads, unsplash+ and external ads
 unsplash.com##div[data-ad="true"]
 unsplash.com##figure[data-testid="photo-grid-masonry-figure"]:has(a[href^="/plus"])
