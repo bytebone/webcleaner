@@ -24,15 +24,10 @@ linkedin.com##div.scaffold-finite-scroll__content > div:has(section.premium-acce
 !╚══════════════════════════════╝
 ! post-download banner
 unsplash.com##.fvlUC
-! sponsored & unsplash+ posts
-unsplash.com##div.ripi6 > div
-unsplash.com##div.ripi6 > figure:has(a[href^="/plus"])
-! debloat navbar
-unsplash.com##div.nOssi
-! removes iStock ads
-unsplash.com##div.CtKee.U8eXG > :nth-child(-n+2)
-unsplash.com##div.NTfdD:has(a[href*="istockphoto"])
-unsplash.com##div.rx4AP > :last-child
+! istock ads, unsplash+ and external ads
+unsplash.com##div[data-ad="true"]
+unsplash.com##figure[data-testid="photo-grid-masonry-figure"]:has(a[href^="/plus"])
+unsplash.com##div[data-testid="masonry-grid-count-three"] > div > div:has(img[src*="adserver"])
 
 !╔══════════════════ TWITTER ═══════════════════╗
 !║   removes trends, algos and blue upselling   ║
