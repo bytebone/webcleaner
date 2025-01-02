@@ -108,7 +108,7 @@ www.wired.com##.VideoFigure-hYQGPl.iqZugu
 !║      blocks js embeds of "chat     ║
 !║         support" buttons           ║
 !╚════════════════════════════════════╝
-||https://embed.typeform.com/next/embed.js
+https://embed.typeform.com/next/embed.js
 
 !╔══════ UNCATEGORIZED ══════╗
 !║    many small changes     ║
