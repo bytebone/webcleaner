@@ -104,6 +104,12 @@ www.wired.com##.VideoFigure-hYQGPl.iqZugu
 ||m.media-amazon.com/images/*.js
 ||raw.githubusercontent.com/wmcmurray/just-detect-adblock/*
 
+!╔══════ "CHAT WITH US" BUTTONS ══════╗
+!║      blocks js embeds of "chat     ║
+!║         support" buttons           ║
+!╚════════════════════════════════════╝
+||https://embed.typeform.com/next/embed.js
+
 !╔══════ UNCATEGORIZED ══════╗
 !║    many small changes     ║
 !║     for random pages      ║
