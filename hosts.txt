@@ -172,3 +172,5 @@ duckduckgo.com##ol.react-results--main>li[data-layout="ad"]
 
 ! 2025-02-01 kleinanzeigen.de
 ||gateway.kleinanzeigen.de/ignite-ad-search/*
+||kleinanzeigen.de/liberty/advertising-web-renderer/*.js
+||static.kleinanzeigen.de/static/js/belen/tracking/*.js
