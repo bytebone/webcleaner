@@ -171,4 +171,4 @@ dropbox.com##div[class*="redesign-header"] > div:has(div[role="alert"])
 duckduckgo.com##ol.react-results--main>li[data-layout="ad"]
 
 ! 2025-02-01 kleinanzeigen.de
-||https://gateway.kleinanzeigen.de/ignite-ad-search/*
+||gateway.kleinanzeigen.de/ignite-ad-search/*
