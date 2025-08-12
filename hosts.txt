@@ -176,4 +176,4 @@ duckduckgo.com##ol.react-results--main>li[data-layout="ad"]
 ||static.kleinanzeigen.de/static/js/belen/tracking/*.js
 
 ! 2025-08-12 sign in with google prompt
-||accounts.google.com/gsi/*$xhr,script,3p
+||accounts.google.com/gsi/client
