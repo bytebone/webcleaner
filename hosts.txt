@@ -177,3 +177,6 @@ duckduckgo.com##ol.react-results--main>li[data-layout="ad"]
 
 ! 2025-08-12 sign in with google prompt
 ||accounts.google.com/gsi/client
+
+tfa.tf##body>div#back_opa
+tfa.tf##body>div#wrap>div#popup
